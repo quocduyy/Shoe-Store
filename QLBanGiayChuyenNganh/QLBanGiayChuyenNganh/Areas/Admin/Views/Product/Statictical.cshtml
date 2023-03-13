@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewBag.Title = "Statictical";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+
+<div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+        <div class="content-wrapper">
+            <div class="container container-card">
+                <div class="col-md-6 col-xl-4 card-item">
+                    <div class="card bg-primary text-white mb-3">
+                        <div class="card-body card-content-body">
+                            <h5 class="card-title text-white text-title">SẢN PHẨM BÁN CHẠY NHẤT TRONG THÁNG</h5>
+                            <p class="card-text text-desc">@ViewBag.SanPhamBanChayNhat</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 card-item">
+                    <div class="card bg-success text-white mb-3">
+                        <div class="card-body card-content-body">
+                            <h5 class="card-title text-white text-title">KHÁCH HÀNG MUA NHIỀU NHẤT TRONG THÁNG</h5>
+                            <p class="card-text text-desc">@ViewBag.KhachHangMuaNhieuNhat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="content-backdrop fade"></div>
+    </div>
+</div>
+
+
+<div class="layout-overlay layout-menu-toggle"></div>
+
+
+<style>
+    .container-card {
+        display: flex;
+        margin-top: 50px
+    }
+
+    .card-item {
+        flex: 1;
+        margin-right: 10px
+    }
+
+    .card-content-body {
+        height: 200px;
+        transform: translateY(39px);
+    }
+
+    .text-title {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .text-desc {
+        font-size: 43px;
+        text-align: center;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+</style>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.HOADON>
+
+@{
+    ViewBag.Title = "reportdh";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>reportdh</h2>
+
+<p>
+
+    @Html.ActionLink("Export to Excel", "Reports", new { ReportType = "Excel" }) |
+    @Html.ActionLink("Export to Word", "Reports", new { ReportType = "Word" }) |
+    @Html.ActionLink("Export to PDF", "Reports", new { ReportType = "PDF" }) |
+    @Html.ActionLink("Export to Image", "Reports", new { ReportType = "Image" }) |
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NgayLap)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TongTien)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaTinhTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MaKhachHang)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NgayLap)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TongTien)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaTinhTrang)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MaKhachHang)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MaHoaDon }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MaHoaDon }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MaHoaDon })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,251 @@
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll.config
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.pdb
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe.config
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.rsp
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe.config
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.rsp
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.AppContext.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Collections.Immutable.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Console.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Globalization.Calendars.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Http.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Sockets.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Reflection.Metadata.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.ValueTuple.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe.config
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.rsp
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe.config
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.Web.Infrastructure.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\WebGrease.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.pdb
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.AssemblyReference.cache
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CoreCompileInputs.cache
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CopyComplete
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.dll
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.pdb
+C:\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Data.Linq.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll.config
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.pdb
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe.config
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.rsp
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe.config
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.rsp
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Managed.Core.targets
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.AppContext.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Collections.Immutable.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Console.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Globalization.Calendars.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Http.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Sockets.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Reflection.Metadata.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.ValueTuple.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XmlDocument.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe.config
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.rsp
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe.config
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.Web.Infrastructure.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Data.Linq.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\WebGrease.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.pdb
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.AssemblyReference.cache
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CoreCompileInputs.cache
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CopyComplete
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.pdb
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\PayPal.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\PayPal.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll.config
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\QLBanGiayChuyenNganh.pdb
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.exe.config
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csc.rsp
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.exe.config
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\csi.rsp
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.AppContext.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Collections.Immutable.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Console.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Globalization.Calendars.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Http.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Net.Sockets.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Reflection.Metadata.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.ValueTuple.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.exe.config
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\vbc.rsp
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\roslyn\VBCSCompiler.exe.config
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.Web.Infrastructure.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\PayPal.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Data.Linq.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\WebGrease.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\PayPal.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Helpers.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Mvc.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Optimization.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.Razor.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Deployment.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\System.Web.WebPages.Razor.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Newtonsoft.Json.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Antlr3.Runtime.pdb
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.AssemblyReference.cache
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CoreCompileInputs.cache
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.csproj.CopyComplete
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.dll
+D:\Đồ án chuyên ngành\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\QLBanGiayChuyenNganh.pdb
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.ReportViewer.Common.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.ReportViewer.DataVisualization.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.ReportViewer.WebForms.dll
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\RdlCompile.cache
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\obj\Debug\RdlCompile.compiled
+E:\DoAn\DA_CN\DoAnChuyenNganh\QLBanGiayChuyenNganh\QLBanGiayChuyenNganh\bin\Microsoft.SqlServer.Types.dll

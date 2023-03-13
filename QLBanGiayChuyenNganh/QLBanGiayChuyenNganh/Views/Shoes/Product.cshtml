@@ -1,0 +1,239 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.GIAY>
+@using QLBanGiayChuyenNganh.Models
+@using System.Data.Linq
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    dbShoesDataContext data = new dbShoesDataContext();
+    var thuonghieus = data.THUONGHIEUs.ToList();
+    var kieudangs = data.KIEUDANGs.ToList();
+    var loaigiays = data.LOAIGIAYs.ToList();
+    var maus = data.MAUs.ToList();
+    var sizes = data.SIZEs.ToList();
+    var chatlieus = data.CHATLIEUs.ToList();
+    var gioitinhs = data.GIOITINHs.ToList();
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<title>Product</title>
+<!-- Header -->
+<!-- Product -->
+<div class="bg0 m-t-23 p-b-140">
+    <div class="container">
+
+        @using (Html.BeginForm())
+        {
+            @*Search*@
+            <div style="display: flex; align-items: center; justify-content: space-between">
+                <div class="dis-none panel-search w-full p-t-10 p-b-15" style="display: block; width: 85%;margin-right: 20px">
+                    <div class="bor8 dis-flex p-l-15">
+                        <button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
+                            <i class="zmdi zmdi-search"></i>
+                        </button>
+
+                        <input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="SearchProduct" placeholder="Tìm sản phẩm">
+                    </div>
+                </div>
+                <input type="submit" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04" value="Tìm" />
+            </div>
+        }
+
+        <div class="flex-w flex-sb-m p-b-52">
+            <div class="flex-w flex-l-m filter-tope-group m-tb-10">
+                @Html.ActionLink("Tất cả sản phẩm", "Product", "Product", new { @class = "stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" })
+                @foreach (var item in gioitinhs)
+                {
+                    <a href="@Url.Action("Product", "Shoes", new { gioitinh = item.MaGioiTinh})" class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5" name="gioitinh">
+                        @item.TenGioiTinh
+                    </a>
+                }
+            </div>
+
+            <div class="flex-w flex-c-m m-tb-10">
+                <div class="flex-c-m stext-106 cl6 size-104 bor4 pointer hov-btn3 trans-04 m-r-8 m-tb-4 js-show-filter">
+                    <i class="icon-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-filter-list"></i>
+                    <i class="icon-close-filter cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+                    Filter
+                </div>
+
+
+                <div class="dropdown">
+                    <button class="btn btn-white " type="button" data-toggle="dropdown">
+                        Sắp xếp
+                        <span class="caret"></span>
+                    </button>
+                  
+                        <ul class="dropdown-menu">
+                            <li><a href="/Shoes/Sort">Giá từ thấp đến cao</a></li>
+                            <li><a href="/Shoes/SortDesc">Giá từ cao đến thấp</a></li>
+                        </ul>
+                  
+                   
+                </div>
+
+
+            </div>
+
+            <!-- Search product -->
+            <div class="dis-none panel-search w-full p-t-10 p-b-15">
+                <div class="bor8 dis-flex p-l-15">
+                    <button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
+                        <i class="zmdi zmdi-search"></i>
+                    </button>
+
+                    <input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" name="search-product" placeholder="Search">
+                </div>
+            </div>
+
+            <!-- Filter -->
+            <div class="dis-none panel-filter w-full p-t-10">
+                <div class="wrap-filter flex-w bg6 w-full p-lr-40 p-t-27 p-lr-15-sm">
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Thương hiệu
+                        </div>
+
+                        <ul>
+                            @foreach (var item in thuonghieus)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { thuonghieu = item.MaThuongHieu})" class="filter-link stext-106 trans-04" name="thuonghieu">
+                                        @item.TenThuongHieu
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Kiểu dáng
+                        </div>
+
+                        <ul>
+                            @foreach (var item in kieudangs)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { kieudang = item.MaKieuDang})" class="filter-link stext-106 trans-04" name="loaiday">
+                                        @item.TenKieuDang
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Loại giày
+                        </div>
+
+                        <ul>
+                            @foreach (var item in loaigiays)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { loaigiay = item.MaLoaiGiay})" class="filter-link stext-106 trans-04" name="chatlieu">
+                                        @item.TenLoaiGiay
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Màu
+                        </div>
+
+                        <ul>
+                            @foreach (var item in maus)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { mau = item.MaMau})" class="filter-link stext-106 trans-04" name="hinhdang">
+                                        @item.TenMau
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Size
+                        </div>
+
+                        <ul>
+                            @foreach (var item in sizes)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { size = item.MaSize})" class="filter-link stext-106 trans-04" name="kichthuoc">
+                                        @item.SoSize
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="filter-col1 p-r-15 p-b-27">
+                        <div class="mtext-102 cl2 p-b-15">
+                            Chất liệu
+                        </div>
+
+                        <ul>
+                            @foreach (var item in chatlieus)
+                            {
+                                <li class="p-b-6">
+                                    <a href="@Url.Action("Product", "Shoes", new { chatlieu = item.MaChatLieu})" class="filter-link stext-106 trans-04" name="mucdo">
+                                        @item.TenChatLieu
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row isotope-grid">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches">
+                    <!-- Block2 -->
+                    <div class="block2">
+                        <div class="block2-pic hov-img0">
+                            <img src="@Html.DisplayFor(modelItem => item.HinhGiay)" alt="IMG-PRODUCT" style="height: 330px;">
+
+                            <a href="@Url.Action("ProductDetail", "Shoes", new {id = item.MaGiay})" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+                                Xem ngay!
+                            </a>
+                        </div>
+
+                        <div class="block2-txt flex-w flex-t p-t-14">
+                            <div class="block2-txt-child1 flex-col-l ">
+                                <a href="@Url.Action("ProductDetail", "Shoes", new {id = item.MaGiay})" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+                                    @Html.DisplayFor(modelItem => item.TenGiay)
+                                </a>
+
+                                <span class="stext-105 cl3">
+                                    @String.Format("{0:0,0}", item.GiaBan) VNĐ
+                                </span>
+                            </div>
+
+                           @* <div class="block2-txt-child2 flex-r p-t-3">
+                                <a href="##" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+                                    <img class="icon-heart1 dis-block trans-04" src="~/Content/images/icons/icon-heart-01.png" alt="ICON">
+                                    <img class="icon-heart2 dis-block trans-04 ab-t-l" src="~/Content/images/icons/icon-heart-02.png" alt="ICON">
+                                </a>
+
+
+
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Load more -->
+        <div class="flex-c-m flex-w w-full p-t-45">
+            <a href="/Shoes/Product" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
+                Xem thêm
+            </a>
+        </div>
+    </div>
+</div>

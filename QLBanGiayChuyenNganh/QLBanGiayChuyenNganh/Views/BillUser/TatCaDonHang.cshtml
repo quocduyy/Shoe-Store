@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.HOADON>
+
+@{
+    ViewBag.Title = "Đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var stt = 0;
+}
+
+<div class="content-wrapper" style="width: 900px; margin: 100px auto 0 ">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <!-- Basic Bootstrap Table -->
+        <div class="card">
+            <h5 class="card-header">Đơn hàng của bạn</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:center">STT</th>
+                            <th style="text-align:center">Mã hóa đơn</th>
+                            <th style="text-align:center">Ngày đặt</th>
+                            <th style="text-align:center">Tổng tiền</th>
+                            <th style="text-align:center">Tình trạng</th>
+                            <th style="text-align:center"></th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody class="table-border-bottom-0">
+                            <tr>
+                                @{
+                                    stt++;
+                                }
+                                <td style="text-align:center"><strong>@stt</strong></td>
+                                <td style="text-align:center">@Html.DisplayFor(model => item.MaHoaDon)</td>
+                                <td style="text-align:center">@Html.DisplayFor(model => item.NgayLap)</td>
+                                <td style="text-align:center">@Html.DisplayFor(model => item.TongTien)</td>
+                                <td style="text-align:center">@item.TINHTRANGDONHANG.TenTinhTrang</td>
+
+                               
+
+                               
+                                <td style="text-align:center"><a href="@Url.Action("ChiTietDonHang", "BillUser", new {id = item.MaHoaDon})">Xem</a></td>
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

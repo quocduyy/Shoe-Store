@@ -1,0 +1,62 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.GIAY>
+@using QLBanGiayChuyenNganh.Models
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<div class="content-wrapper">
+    <!-- Content -->
+
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <!-- Basic Bootstrap Table -->
+        <div class="card">
+            <a type="submit" class="btn btn-primary" href="@Url.Action("Add", "Product")" style="width: 200px; margin: 20px;">Thêm sản phẩm</a>
+            <h5 class="card-header">DANH SÁCH SẢN PHẨM</h5>
+            <div class="table-responsive text-nowrap">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th><strong>Tên sản phẩm</strong></th>
+                            <th><strong>Ảnh sản phẩm</strong></th>
+                            <th><strong>Loại giày</strong></th>
+                            <th><strong>Giá nhập</strong></th>
+                            <th><strong>Giá bán</strong></th>
+                            <th><strong>Thương hiệu</strong></th>
+                            <th><strong>kiểu dáng</strong></th>
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody class="table-border-bottom-0">
+                            <tr>
+                                <td>
+                                </td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i>@Html.DisplayFor(model => item.TenGiay)</td>
+                                <td style="text-align:center"><img src="@Html.DisplayFor(model => item.HinhGiay)" width="auto" height="70px" /></td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i> @Html.DisplayFor(model => item.LOAIGIAY.TenLoaiGiay)</td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i> @item.GiaNhap</td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i> @item.GiaBan</td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i> @Html.DisplayFor(model => item.THUONGHIEU.TenThuongHieu)</td>
+                                <td style="text-align:center"><i class="fab fa-angular fa-lg text-danger"></i> @Html.DisplayFor(model => item.KIEUDANG.TenKieuDang)</td>
+                                <td style="text-align:center">
+                                    <a class="btn btn-info" href="@Url.Action("Update", "Product", new { id = item.MaGiay })"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                    <a class="btn btn-danger" href="@Url.Action("Delete", "Product", new { id = item.MaGiay })"><i class="bx bx-trash me-1"></i> Delete</a>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                    }
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Content wrapper -->
+
+<style>
+    .table th {
+        font-size: 12px;
+    }
+</style>
+

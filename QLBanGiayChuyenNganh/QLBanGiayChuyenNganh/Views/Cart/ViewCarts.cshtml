@@ -1,0 +1,124 @@
+﻿@using QLBanGiayChuyenNganh.Models
+@model List<Cart>
+@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!-- breadcrumb -->
+<div class="container">
+    <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+        <a href="/Shoes/Index" class="stext-109 cl8 hov-cl1 trans-04">
+            Trang Chủ
+            <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+        </a>
+
+        <span class="stext-109 cl4">
+            Giỏ hàng
+        </span>
+    </div>
+</div>
+
+<!-- Shoping Cart -->
+<div class="bg0 p-t-75 p-b-85">
+    <div class="container">
+        @if (ViewBag.ViewCarts != 0)
+        {
+            <div class="row">
+                <div class="col-lg-10 col-xl-10 m-lr-auto m-b-50">
+                    <div class="m-l-25 m-r--38 m-lr-0-xl">
+                        <div class="wrap-table-shopping-cart">
+                            <table class="table-shopping-cart">
+                                <tr class="table_head">
+                                    <th class="column-1">Sản phẩm</th>
+                                    <th class="column-2" style="text-align:center"></th>
+                                    <th class="column-3" style="text-align:center">Màu</th>
+                                    <th class="column-4" style="text-align:center">Size</th>
+                                    <th class="column-5" style="text-align:center">Giá</th>
+                                    <th class="column-6" style="text-align:center">Số lượng</th>
+                                    <th class="column-7" style="text-align:center">Thành tiền</th>
+                                    <th class="column-8" style="text-align: center; padding-left: 75px">Xóa</th>
+                                    <th class="column-9" style="text-align:center"></th>
+                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr class="table_row">
+                                        <td class="column-1">
+                                            <div class="how-itemcart1">
+                                                <img src="@Html.DisplayFor(modelItem => item.hinh)" alt="IMG">
+                                            </div>
+                                        </td>
+
+                                        @using (Html.BeginForm("CapnhatGiohang", "Cart", new { @id = item.id }))
+                                        {
+                                            <td class="column-2">@Html.DisplayFor(modelItem => item.ten)</td>
+                                            <td class="column-3"style="text-align:center">@String.Format("{0:0,0}", item.mau)</td>
+                                            <td class="column-4" style="text-align:center";>@String.Format("{0:0,0}", item.size)</td>
+                                            <td class="column-5"style="text-align:center">@String.Format("{0:0,0}", item.gia)</td>
+                                            <td class="column-6">
+                                                <div class="wrap-num-product flex-w m-l-auto m-r-0">
+                                                    <div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+                                                        <i class="fs-16 zmdi zmdi-minus"></i>
+                                                    </div>
+
+                                                    <input class="mtext-104 cl3 txt-center num-product" type="number" min="1" name="txtSoLg" value="@item.iSoluong">
+
+                                                    <div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+                                                        <i class="fs-16 zmdi zmdi-plus"></i>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="column-7"style="text-align:center">@String.Format("{0:0,0}", item.dThanhtien)</td>
+                                            <td class="column-8" style="text-align: center; padding-left: 75px"> @Html.ActionLink("X", "XoaGiohang", new { @id = item.id }) </td>
+                                            <td class="column-9" style="text-align:center"><input type="submit" value="Cập nhật giỏ hàng" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="margin-left: 74px;" /></td>
+                                        }
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                        @*<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+                            <div>
+                                <input type="submit" value="Update Cart" class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10" />
+                            </div>
+                        </div>*@
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
+                    <div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
+                        <h4 class="mtext-109 cl2 p-b-30">
+                            THANH TOÁN
+                        </h4>
+                        <div class="flex-w flex-t p-t-27 p-b-33">
+                            <div class="size-208">
+                                <span class="mtext-101 cl2">
+                                    Tổng tiền:
+                                </span>
+                            </div>
+
+                            <div class="size-209 p-t-1">
+                                <span class="mtext-110 cl2">
+                                    @string.Format("{0:0,0}", ViewBag.Tongtien) VNĐ
+                                </span>
+                            </div>
+                        </div>
+
+                        <button class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer">
+                            @Html.ActionLink("THANH TOÁN", "Dathang", "Cart", new { @class = "flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer" })
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        }
+        else
+        {
+            <h3 class="l2 p-b-30" style="font-weight: 700; text-align: center">
+                GIỎ HÀNG TRỐNG
+            </h3>
+        }
+    </div>
+</div>
+
+

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.CTHOADON>
+@{
+    ViewBag.Title = "Đơn hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var stt = 0;
+}
+
+
+
+
+@using (Html.BeginForm())
+{
+    <div class="content-wrapper" style="width: 900px; margin: 100px auto 0 ">
+        <h1 style="text-align: center; margin-bottom: 100px">CHI TIẾT ĐƠN HÀNG</h1>
+        <span style="margin-right: 30px"><strong>Mã đơn hàng:</strong> @ViewBag.MaDonHang</span>
+        <span style="margin-right: 30px"><strong>Ngày đặt:</strong> @ViewBag.NgayDat</span>
+        <span style="margin-right: 30px"><strong>Tình trạng:</strong> @ViewBag.TinhTrang</span>
+        <span><strong>Tổng tiền:</strong> @ViewBag.TongTien</span>
+        <div class="container-xxl flex-grow-1 container-p-y" style="margin-top: 30px">
+            <div class="card">
+                <h5 class="card-header">Chi tiết đơn hàng</h5>
+                <div class="table-responsive text-nowrap">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th style="text-align:center">STT</th>
+                                <th style="text-align:center">Tên Giày</th>
+                                <th style="text-align:center">Số lượng</th>
+                                <th style="text-align:center">Thành tiền</th>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model)
+                        {
+                            <tbody class="table-border-bottom-0">
+                                <tr>
+                                    @{
+                                        stt++;
+                                    }
+                                    <td style="text-align:center"><strong>@stt</strong></td>
+                                    <td style="text-align:center">@Html.DisplayFor(model => item.GIAY.TenGiay)</td>
+                                    <td style="text-align:center">@Html.DisplayFor(model => item.SoLuong)</td>
+                                    <td style="text-align:center">@Html.DisplayFor(model => item.ThanhTien)</td>
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

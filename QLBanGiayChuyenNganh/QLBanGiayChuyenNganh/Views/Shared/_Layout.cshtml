@@ -1,0 +1,383 @@
+﻿@using QLBanGiayChuyenNganh.Models;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/fonts/linearicons-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/slick/slick.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/MagnificPopup/magnific-popup.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Content/css/main.css">
+    <!--===============================================================================================-->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="~/Content/images/icons/giaykk-removebg-preview.png" />
+    <title>@ViewBag.Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+</head>
+<body class="animsition">
+    <header class="header-v4">
+        <!-- Header desktop -->
+        <div class="container-menu-desktop">
+            <!-- Topbar -->
+            <div class="top-bar">
+                <div class="content-topbar flex-sb-m h-full container">
+                    <div class="left-top-bar"></div>
+
+                    @{
+                        if (Session["Taikhoan"] == null)
+                        {
+                            <div class="right-top-bar flex-w h-full">
+                                <a href="/User/Register" class="flex-c-m trans-04 p-lr-25">
+                                    Đăng ký
+                                </a>
+                                <a href="/User/Login" class="flex-c-m trans-04 p-lr-25">
+                                    Đăng nhập
+                                </a>
+                            </div>
+                        }
+                        else
+                        {
+                            KHACHHANG kh = (KHACHHANG)Session["Taikhoan"];
+                <div class="right-top-bar flex-w h-full">
+                    <a href="#" class="flex-c-m trans-04 p-lr-25">
+                        Chào @kh.TenKhachHang
+                    </a>
+                    <a href="/BillUser/TatCaDonHang" class="flex-c-m trans-04 p-lr-25">
+                        Đơn hàng
+                    </a>
+
+                   @* <a href="/User/Profile" class="flex-c-m trans-04 p-lr-25">
+                        Trang cá nhân
+                    </a>*@
+
+                    <a href="/User/Logout" class="flex-c-m trans-04 p-lr-25">
+                        Đăng xuất
+                    </a>
+                </div>
+                        }
+                    }
+
+
+                </div>
+            </div>
+            <div class="wrap-menu-desktop how-shadow1">
+                <nav class="limiter-menu-desktop container">
+
+                    <!-- Logo desktop -->
+                    <a href="/Shoes/Index" class="logo">
+                        <img src="~/Content/images/anh/logo.png" alt="IMG-LOGO">
+                    </a>
+
+                    <!-- Menu desktop -->
+                    <div class="menu-desktop">
+                        <ul class="main-menu">
+                            <li>
+                                <a href="/Shoes/Index">Trang chủ</a>
+                            </li>
+
+                            <li class="active-menu">
+                                <a href="/Shoes/Product">Sản phẩm</a>
+                            </li>
+
+                            @*<li class="label1" data-label1="hot">
+                                <a href="/Cart/ViewCarts">Cart</a>
+                            </li>*@
+                            <li>
+                                <a href="/Home/Contact">Thông tin</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Icon header -->
+                    <div class="wrap-icon-header flex-w flex-r-m">
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 js-show-modal-search">
+                            @*<i class="zmdi zmdi-search"></i>*@
+                        </div>
+
+                        @{
+
+                            int sl = 0;
+                            if (Session["ViewCart"] == null)
+                            {
+                                Session["CountProductCart"] = null;
+                            }
+                            else
+                            {
+                                if (Session["CountProductCart"] != null)
+                                {
+                                    sl = int.Parse(Session["CountProductCart"].ToString());
+                                }
+
+                            }
+                        }
+
+                        @{
+
+                            int sllike = 0;
+                            if (Session["ViewLike"] == null)
+                            {
+                                Session["CountProductLike"] = null;
+                            }
+                            else
+                            {
+                                if (Session["CountProductLike"] != null)
+                                {
+                                    sl = int.Parse(Session["CountProductLike"].ToString());
+                                }
+
+                            }
+                        }
+
+                        <a href="@Url.Action("ViewCarts", "Cart", "")">
+                            <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart" data-notify="@sl">
+                                <i class="zmdi zmdi-shopping-cart"></i>
+                            </div>
+                        </a>
+                        <a href="/User/Profile" class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11" >
+                            
+                            <img src="~/Content/icon-pro.png"  alt="Alternate Text"  style="height:21px; width:25px; margin-top:-7px; color: black" />
+                        </a>
+
+
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Header Mobile -->
+        <div class="wrap-header-mobile">
+            <!-- Logo moblie -->
+            <div class="logo-mobile">
+                <a href="/Shoes/Index"><img src="~/Content/images/anh/logo.png" alt="IMG-LOGO"></a>
+            </div>
+
+            <!-- Icon header -->
+            <div class="wrap-icon-header flex-w flex-r-m m-r-15">
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 js-show-modal-search">
+                    <i class="zmdi zmdi-search"></i>
+                </div>
+
+                <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+                    <i class="zmdi zmdi-shopping-cart"></i>
+                </div>
+
+                <a href="#" class="dis-block icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti" data-notify="0">
+                    <i class="zmdi zmdi-favorite-outline"></i>
+                </a>
+            </div>
+
+            <!-- Button show menu -->
+            <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </div>
+        </div>
+
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile">
+            <ul class="topbar-mobile">
+                <li>
+                    <div class="left-top-bar">
+
+                    </div>
+                </li>
+
+                <li>
+                    <div class="right-top-bar flex-w h-full">
+                        <a href="/User/Register" class="flex-c-m p-lr-10 trans-04">
+                            Đăng ký
+                        </a>
+                        <a href="/User/Login" class="flex-c-m p-lr-10 trans-04">
+                            Đăng nhập
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="main-menu-m">
+                <li>
+                    <a href="/Shoes/Index">Home</a>
+                </li>
+
+                <li>
+                    <a href="/Shoes/Product">Shop</a>
+                    <ul class="sub-menu-m">
+                        <li><a href="/Watch/Product">Watch</a></li>
+                        <li><a href="/Watch/Product">Watch Accessories</a></li>
+                    </ul>
+
+                    <span class="arrow-main-menu-m">
+                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                    </span>
+                </li>
+                <li>
+                    <a href="/Cart/ViewCart" class="label1 rs1" data-label1="hot">Cart</a>
+                </li>
+
+                <li>
+                    <a href="/Watch/Blog">Blog</a>
+                </li>
+
+                <li>
+                    <a href="/Watch/About">About</a>
+                </li>
+
+                <li>
+                    <a href="/Watch/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Modal Search -->
+       
+
+        <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+            <div class="container-search-header">
+                <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+                    <img src="/Content/images/icons/icon-close2.png" alt="CLOSE">
+                </button>
+
+                <form class="wrap-search-header flex-w p-l-15">
+                    <button class="flex-c-m trans-04">
+                        <i class="zmdi zmdi-search"></i>
+                    </button>
+                    <input class="plh3" type="text" name="search" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Content/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/select2/select2.min.js"></script>
+    <script>
+        $(".js-select2").each(function () {
+            $(this).select2({
+                minimumResultsForSearch: 20,
+                dropdownParent: $(this).next('.dropDownSelect2')
+            });
+        })
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/Content/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/slick/slick.min.js"></script>
+    <script src="~/Content/js/slick-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/parallax100/parallax100.js"></script>
+    <script>
+        $('.parallax100').parallax100();
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/MagnificPopup/jquery.magnific-popup.min.js"></script>
+    <script>
+        $('.gallery-lb').each(function () { // the containers for all your galleries
+            $(this).magnificPopup({
+                delegate: 'a', // the selector for gallery item
+                type: 'image',
+                gallery: {
+                    enabled: true
+                },
+                mainClass: 'mfp-fade'
+            });
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/isotope/isotope.pkgd.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/sweetalert/sweetalert.min.js"></script>
+    <script>
+        $('.js-addwish-b2').on('click', function (e) {
+            e.preventDefault();
+        });
+
+        $('.js-addwish-b2').each(function () {
+            var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
+            $(this).on('click', function () {
+                swal(nameProduct, "is added to wishlist !", "success");
+
+                $(this).addClass('js-addedwish-b2');
+                $(this).off('click');
+            });
+        });
+
+        $('.js-addwish-detail').each(function () {
+            var nameProduct = $(this).parent().parent().parent().find('.js-name-detail').html();
+
+            $(this).on('click', function () {
+                swal(nameProduct, "is added to wishlist !", "success");
+
+                $(this).addClass('js-addedwish-detail');
+                $(this).off('click');
+            });
+        });
+
+        /*---------------------------------------------*/
+
+        $('.js-addcart-detail').each(function () {
+            var nameProduct = $(this).parent().parent().parent().parent().find('.js-name-detail').html();
+            $(this).on('click', function () {
+                swal(nameProduct, "is added to cart !", "success");
+            });
+        });
+
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script>
+        $('.js-pscroll').each(function () {
+            $(this).css('position', 'relative');
+            $(this).css('overflow', 'hidden');
+            var ps = new PerfectScrollbar(this, {
+                wheelSpeed: 1,
+                scrollingThreshold: 1000,
+                wheelPropagation: false,
+            });
+
+            $(window).on('resize', function () {
+                ps.update();
+            })
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/Content/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<QLBanGiayChuyenNganh.Models.KHACHHANG>
+
+    @{
+        ViewBag.Title = "List";
+        Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+    }
+
+    <div class="content-wrapper">
+        <!-- Content -->
+        <div class="container-xxl flex-grow-1 container-p-y">
+            <!-- Basic Bootstrap Table -->
+            <div class="card">
+                <a type="submit" class="btn btn-primary" href="@Url.Action("Register", "Customer")" style="width: 200px; margin: 20px;">Thêm khách hàng</a>
+                <h5 class="card-header">DANH SÁCH KHÁCH HÀNG</h5>
+                <div class="table-responsive text-nowrap">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th><strong>Họ tên</strong></th>
+                                <th><strong>Địa chỉ</strong></th>
+                                <th><strong>Điện thoại</strong></th>
+                                <th><strong>Tên tài khoản</strong></th>
+                                <th><strong>Email</strong></th>
+                            </tr>
+                        </thead>
+                        @foreach (var item in Model)
+                        {
+                            <tbody class="table-border-bottom-0">
+                                <tr>
+                                    <td>
+                                    </td>
+                                    <td><i class="fab fa-angular fa-lg text-danger"></i>@Html.DisplayFor(model => item.TenKhachHang)</td>
+                                    <td><i class="fab fa-angular fa-lg text-danger"></i> @Html.DisplayFor(model => item.DiachiKH)</td>
+                                    <td>@Html.DisplayFor(model => item.SDTKH)</td>
+                                    <td>@Html.DisplayFor(model => item.TAIKHOANKH.MaTaiKhoanKH)</td>
+                                    <td>@Html.DisplayFor(model => item.TAIKHOANKH.Email)</td>
+                                    <td>
+                                        <a class="btn btn-info" href="@Url.Action("Update", "Customer", new { id = item.MaKhachHang })"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                        <a class="btn btn-danger" href="@Url.Action("Delete", "Customer", new { id = item.MaKhachHang })"><i class="bx bx-trash me-1"></i> Delete</a>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        }
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Content wrapper -->
+
+    <style>
+        .table th {
+            font-size: 12px;
+        }
+    </style>
+
